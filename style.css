@@ -1,0 +1,138 @@
+.pt-20 {
+    padding-top: 20px;
+}
+
+form {
+    padding: 20px;
+    width: 470px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    position: fixed;
+    margin: 5% auto;
+    left:0;
+    right:0;
+    top: 50px;
+    background: white;
+}
+
+form ul {
+    padding: none!important;
+}
+
+form li {
+    list-style: none;
+    padding: 10px;
+}
+
+form li input {
+    width: 90%;
+}
+
+#li-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#close-btn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:20px;
+}
+
+#close-btn:hover {
+    cursor: pointer;
+}
+
+#library {
+    margin-top: 20px;
+}
+
+#library .col-4 h2 {
+    text-align: center;
+    margin-bottom: 10px!important;
+}
+
+.card {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+    max-width: 200px;
+    min-height: 200px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.card h4 {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.card i {
+    text-align: right;
+    margin-bottom: 5px;
+    color: #778899;
+}
+
+.card i:hover {
+    cursor: pointer;
+}
+
+.card span {
+    text-align: left;
+    color: #778899;
+}
+
+.card span:hover {
+    cursor: pointer;
+}
+
+#form2 {
+    padding: 20px;
+    width: 125px!important;
+    border: 1px solid gray;
+    border-radius: 8px;
+    position: fixed;
+    margin: 5% auto;
+    left:0;
+    right:0;
+    top: 50px;
+    background: white;
+    text-align: center;
+}
+
+#close-btn2 {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:15px;
+    top: 15px;
+    color: #778899;
+}
+
+#close-btn2:hover {
+    cursor: pointer;
+}
+
+#form2 label {
+    margin-top: 15px;
+}
+
+#form2 #read {
+    margin-bottom: 10px;
+}
+
+.library-col div {
+    margin-bottom: 20px;
+}
